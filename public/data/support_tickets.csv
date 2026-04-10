@@ -1,0 +1,241 @@
+ticket_id,created_at,region,product_line,channel,priority,status,resolution_time_hours,csat_score,issue_category,issue_subcategory,customer_segment,agent_team,ticket_summary
+TKT-1001,2026-02-21 18:07:00,North America,Payments,Phone,Medium,In Progress,24.4,1,Billing,Invoice Error,Enterprise,Team Beta,Billing issue reported via phone for payments
+TKT-1002,2026-03-17 17:21:00,Europe,Payments,Email,Low,Closed,25.7,2,Login,Account Locked,SMB,Team Delta,Login issue reported via email for payments
+TKT-1003,2026-01-03 12:50:00,North America,Payments,Email,High,Resolved,13.6,4,Performance,Slow Dashboard,Enterprise,Team Beta,Performance issue reported via email for payments
+TKT-1004,2026-03-01 14:43:00,North America,Mobile App,Web Form,Medium,In Progress,10.7,4,Login,Password Reset,Consumer,Team Delta,Login issue reported via web form for mobile app
+TKT-1005,2026-03-04 09:25:00,APAC,Payments,Chat,Medium,Closed,25.1,4,Shipping,Tracking Missing,Consumer,Team Delta,Shipping issue reported via chat for payments
+TKT-1006,2026-03-23 12:23:00,APAC,Web Portal,Chat,Medium,Closed,18.7,2,Billing,Invoice Error,SMB,Team Gamma,Billing issue reported via chat for web portal
+TKT-1007,2026-03-22 15:34:00,North America,Payments,Web Form,High,Resolved,9.5,3,Account,Profile Update,Consumer,Team Gamma,Account issue reported via web form for payments
+TKT-1008,2026-03-03 15:36:00,APAC,Web Portal,Email,High,Closed,12.9,4,Account,Permissions,Consumer,Team Delta,Account issue reported via email for web portal
+TKT-1009,2026-01-27 16:14:00,North America,Subscriptions,Email,Medium,Resolved,16.2,5,Login,Account Locked,Enterprise,Team Gamma,Login issue reported via email for subscriptions
+TKT-1010,2026-01-15 18:28:00,APAC,Mobile App,Email,Low,Closed,34.0,1,Login,Password Reset,SMB,Team Beta,Login issue reported via email for mobile app
+TKT-1011,2026-03-16 17:54:00,APAC,Payments,Chat,High,Resolved,13.9,3,Billing,Invoice Error,Enterprise,Team Delta,Billing issue reported via chat for payments
+TKT-1012,2026-01-09 12:32:00,APAC,Subscriptions,Phone,Low,Closed,30.5,4,Shipping,Delay,Consumer,Team Gamma,Shipping issue reported via phone for subscriptions
+TKT-1013,2026-02-08 09:02:00,APAC,Mobile App,Phone,Medium,Resolved,34.6,1,Billing,Card Declined,Enterprise,Team Alpha,Billing issue reported via phone for mobile app
+TKT-1014,2026-02-01 13:31:00,Europe,Mobile App,Chat,Medium,Closed,14.3,3,Login,MFA Issue,SMB,Team Delta,Login issue reported via chat for mobile app
+TKT-1015,2026-01-16 08:08:00,APAC,Mobile App,Phone,Medium,Resolved,25.0,2,Billing,Invoice Error,Enterprise,Team Beta,Billing issue reported via phone for mobile app
+TKT-1016,2026-02-21 16:32:00,North America,Web Portal,Web Form,Medium,Resolved,27.2,3,Performance,Timeout,Consumer,Team Alpha,Performance issue reported via web form for web portal
+TKT-1017,2026-01-16 17:47:00,Europe,Web Portal,Chat,Medium,Closed,26.7,3,Performance,App Crash,SMB,Team Delta,Performance issue reported via chat for web portal
+TKT-1018,2026-01-24 13:55:00,LATAM,Subscriptions,Chat,High,Closed,4.5,5,Refund,Delayed Refund,Consumer,Team Beta,Refund issue reported via chat for subscriptions
+TKT-1019,2026-01-18 09:01:00,Europe,Web Portal,Web Form,High,Closed,13.5,5,Account,Permissions,SMB,Team Delta,Account issue reported via web form for web portal
+TKT-1020,2026-01-17 08:47:00,APAC,Mobile App,Chat,Low,Resolved,37.0,2,Shipping,Tracking Missing,SMB,Team Delta,Shipping issue reported via chat for mobile app
+TKT-1021,2026-03-05 08:04:00,North America,Payments,Email,Low,Closed,33.9,3,Performance,Slow Dashboard,Consumer,Team Beta,Performance issue reported via email for payments
+TKT-1022,2026-02-15 12:30:00,LATAM,Payments,Web Form,Critical,Closed,4.0,5,Refund,Delayed Refund,SMB,Team Delta,Refund issue reported via web form for payments
+TKT-1023,2026-02-27 10:39:00,APAC,Payments,Email,Low,In Progress,22.6,5,Billing,Card Declined,Consumer,Team Gamma,Billing issue reported via email for payments
+TKT-1024,2026-02-17 14:28:00,APAC,Payments,Phone,Medium,Open,18.0,5,Shipping,Wrong Address,SMB,Team Beta,Shipping issue reported via phone for payments
+TKT-1025,2026-03-07 14:21:00,LATAM,Payments,Phone,Medium,Closed,20.6,3,Billing,Card Declined,Consumer,Team Beta,Billing issue reported via phone for payments
+TKT-1026,2026-03-01 12:38:00,North America,Web Portal,Chat,Low,Resolved,47.2,3,Login,Password Reset,SMB,Team Gamma,Login issue reported via chat for web portal
+TKT-1027,2026-02-27 14:25:00,Europe,Payments,Phone,Low,Resolved,22.6,3,Bug Report,Data Mismatch,Consumer,Team Alpha,Bug Report issue reported via phone for payments
+TKT-1028,2026-02-17 16:39:00,North America,Web Portal,Phone,Critical,Resolved,4.3,4,Account,Profile Update,SMB,Team Alpha,Account issue reported via phone for web portal
+TKT-1029,2026-03-10 08:29:00,Europe,Payments,Email,High,Resolved,6.1,4,Account,Permissions,SMB,Team Delta,Account issue reported via email for payments
+TKT-1030,2026-01-10 13:04:00,North America,Mobile App,Chat,High,Closed,18.8,4,Billing,Card Declined,Enterprise,Team Delta,Billing issue reported via chat for mobile app
+TKT-1031,2026-01-02 08:27:00,Europe,Web Portal,Web Form,Medium,Resolved,10.6,5,Bug Report,UI Bug,Consumer,Team Beta,Bug Report issue reported via web form for web portal
+TKT-1032,2026-02-02 15:09:00,APAC,Subscriptions,Phone,Low,Resolved,28.5,3,Billing,Double Charge,Enterprise,Team Delta,Billing issue reported via phone for subscriptions
+TKT-1033,2026-03-15 17:33:00,North America,Mobile App,Chat,Low,Resolved,38.2,4,Performance,Slow Dashboard,Consumer,Team Gamma,Performance issue reported via chat for mobile app
+TKT-1034,2026-03-14 15:34:00,North America,Mobile App,Chat,Critical,In Progress,4.1,5,Shipping,Delay,SMB,Team Alpha,Shipping issue reported via chat for mobile app
+TKT-1035,2026-01-17 08:19:00,North America,Mobile App,Email,High,Resolved,10.3,5,Shipping,Delay,Consumer,Team Gamma,Shipping issue reported via email for mobile app
+TKT-1036,2026-01-12 16:51:00,North America,Mobile App,Phone,Medium,Resolved,16.7,5,Refund,Refund Denied,Consumer,Team Delta,Refund issue reported via phone for mobile app
+TKT-1037,2026-01-18 16:09:00,Europe,Mobile App,Web Form,High,Resolved,12.7,3,Bug Report,UI Bug,Consumer,Team Delta,Bug Report issue reported via web form for mobile app
+TKT-1038,2026-02-07 10:07:00,LATAM,Mobile App,Email,Medium,In Progress,26.2,4,Shipping,Delay,Consumer,Team Delta,Shipping issue reported via email for mobile app
+TKT-1039,2026-03-08 09:27:00,APAC,Subscriptions,Web Form,Medium,Resolved,22.4,3,Refund,Delayed Refund,Consumer,Team Alpha,Refund issue reported via web form for subscriptions
+TKT-1040,2026-01-25 15:32:00,North America,Payments,Web Form,Low,Resolved,30.6,2,Bug Report,Notification Failure,Enterprise,Team Gamma,Bug Report issue reported via web form for payments
+TKT-1041,2026-01-14 08:52:00,North America,Mobile App,Chat,High,Resolved,9.1,3,Shipping,Delay,Consumer,Team Delta,Shipping issue reported via chat for mobile app
+TKT-1042,2026-01-08 17:59:00,Europe,Subscriptions,Chat,Medium,Closed,20.2,3,Login,MFA Issue,Consumer,Team Delta,Login issue reported via chat for subscriptions
+TKT-1043,2026-01-06 09:50:00,Europe,Payments,Web Form,High,Closed,4.9,5,Account,Permissions,SMB,Team Alpha,Account issue reported via web form for payments
+TKT-1044,2026-03-18 08:33:00,North America,Payments,Email,Low,Resolved,31.7,4,Login,Password Reset,Enterprise,Team Beta,Login issue reported via email for payments
+TKT-1045,2026-02-22 12:09:00,LATAM,Subscriptions,Web Form,High,In Progress,16.2,3,Billing,Invoice Error,SMB,Team Delta,Billing issue reported via web form for subscriptions
+TKT-1046,2026-01-26 17:33:00,North America,Mobile App,Web Form,Medium,Closed,33.2,3,Refund,Partial Refund,SMB,Team Delta,Refund issue reported via web form for mobile app
+TKT-1047,2026-02-07 09:37:00,APAC,Subscriptions,Phone,Medium,Resolved,14.1,5,Account,Plan Change,Consumer,Team Delta,Account issue reported via phone for subscriptions
+TKT-1048,2026-02-20 08:04:00,Europe,Mobile App,Phone,High,Resolved,9.4,4,Performance,Slow Dashboard,Consumer,Team Alpha,Performance issue reported via phone for mobile app
+TKT-1049,2026-01-23 14:15:00,North America,Web Portal,Email,Low,In Progress,25.9,3,Login,Password Reset,Consumer,Team Delta,Login issue reported via email for web portal
+TKT-1050,2026-02-20 10:20:00,Europe,Payments,Email,Low,Open,21.5,4,Billing,Invoice Error,Enterprise,Team Alpha,Billing issue reported via email for payments
+TKT-1051,2026-02-16 16:21:00,North America,Mobile App,Web Form,Low,Resolved,29.1,1,Bug Report,UI Bug,Consumer,Team Beta,Bug Report issue reported via web form for mobile app
+TKT-1052,2026-02-25 13:13:00,North America,Payments,Web Form,Medium,In Progress,12.1,4,Shipping,Tracking Missing,SMB,Team Gamma,Shipping issue reported via web form for payments
+TKT-1053,2026-02-07 10:50:00,APAC,Mobile App,Phone,Low,Resolved,26.6,3,Billing,Invoice Error,SMB,Team Gamma,Billing issue reported via phone for mobile app
+TKT-1054,2026-02-03 15:39:00,LATAM,Mobile App,Phone,Medium,Resolved,8.9,5,Login,MFA Issue,SMB,Team Gamma,Login issue reported via phone for mobile app
+TKT-1055,2026-02-02 12:21:00,North America,Payments,Web Form,Low,Closed,36.4,3,Shipping,Tracking Missing,SMB,Team Alpha,Shipping issue reported via web form for payments
+TKT-1056,2026-03-16 15:25:00,North America,Mobile App,Phone,Low,Resolved,22.7,2,Refund,Partial Refund,Enterprise,Team Gamma,Refund issue reported via phone for mobile app
+TKT-1057,2026-03-05 13:36:00,North America,Mobile App,Phone,Medium,Resolved,24.3,2,Bug Report,Data Mismatch,SMB,Team Beta,Bug Report issue reported via phone for mobile app
+TKT-1058,2026-02-09 09:19:00,LATAM,Web Portal,Email,Low,Closed,24.2,4,Account,Permissions,Consumer,Team Gamma,Account issue reported via email for web portal
+TKT-1059,2026-02-19 12:55:00,North America,Mobile App,Phone,Critical,Closed,8.2,5,Billing,Invoice Error,SMB,Team Alpha,Billing issue reported via phone for mobile app
+TKT-1060,2026-02-06 12:18:00,Europe,Web Portal,Phone,Medium,Resolved,26.5,2,Performance,App Crash,SMB,Team Beta,Performance issue reported via phone for web portal
+TKT-1061,2026-02-07 08:22:00,APAC,Mobile App,Phone,Medium,Closed,6.8,4,Performance,App Crash,SMB,Team Delta,Performance issue reported via phone for mobile app
+TKT-1062,2026-02-11 11:14:00,APAC,Payments,Email,High,Closed,12.5,4,Performance,App Crash,Consumer,Team Delta,Performance issue reported via email for payments
+TKT-1063,2026-01-05 18:09:00,APAC,Payments,Email,Medium,Closed,15.3,4,Refund,Delayed Refund,Enterprise,Team Beta,Refund issue reported via email for payments
+TKT-1064,2026-02-05 11:25:00,APAC,Mobile App,Web Form,Low,In Progress,31.4,4,Shipping,Tracking Missing,Enterprise,Team Delta,Shipping issue reported via web form for mobile app
+TKT-1065,2026-01-13 15:17:00,North America,Payments,Email,Medium,In Progress,22.4,4,Login,Account Locked,Consumer,Team Beta,Login issue reported via email for payments
+TKT-1066,2026-01-31 17:08:00,North America,Web Portal,Chat,Medium,Open,22.7,3,Refund,Delayed Refund,Consumer,Team Beta,Refund issue reported via chat for web portal
+TKT-1067,2026-01-09 17:51:00,North America,Web Portal,Phone,High,Closed,8.6,4,Account,Profile Update,Enterprise,Team Gamma,Account issue reported via phone for web portal
+TKT-1068,2026-02-12 18:43:00,Europe,Mobile App,Email,High,Resolved,10.3,4,Billing,Double Charge,Consumer,Team Delta,Billing issue reported via email for mobile app
+TKT-1069,2026-03-22 11:40:00,Europe,Mobile App,Chat,Low,Resolved,30.0,3,Shipping,Delay,Enterprise,Team Delta,Shipping issue reported via chat for mobile app
+TKT-1070,2026-03-24 08:44:00,North America,Mobile App,Phone,Medium,Resolved,10.8,4,Refund,Delayed Refund,Consumer,Team Beta,Refund issue reported via phone for mobile app
+TKT-1071,2026-02-20 11:00:00,APAC,Mobile App,Email,Medium,Closed,16.2,5,Login,MFA Issue,Consumer,Team Alpha,Login issue reported via email for mobile app
+TKT-1072,2026-01-07 15:00:00,LATAM,Mobile App,Chat,Medium,Resolved,21.9,5,Billing,Double Charge,Enterprise,Team Gamma,Billing issue reported via chat for mobile app
+TKT-1073,2026-01-08 09:34:00,APAC,Mobile App,Chat,Low,Closed,27.1,2,Refund,Partial Refund,Consumer,Team Beta,Refund issue reported via chat for mobile app
+TKT-1074,2026-01-07 17:06:00,LATAM,Web Portal,Phone,High,Resolved,10.4,5,Refund,Partial Refund,Enterprise,Team Gamma,Refund issue reported via phone for web portal
+TKT-1075,2026-01-02 10:22:00,APAC,Subscriptions,Phone,Low,Closed,23.8,5,Refund,Partial Refund,SMB,Team Alpha,Refund issue reported via phone for subscriptions
+TKT-1076,2026-03-22 17:29:00,APAC,Mobile App,Phone,Medium,Resolved,16.5,4,Bug Report,UI Bug,Consumer,Team Alpha,Bug Report issue reported via phone for mobile app
+TKT-1077,2026-01-22 18:45:00,LATAM,Web Portal,Phone,Critical,Resolved,9.2,5,Performance,Timeout,Enterprise,Team Alpha,Performance issue reported via phone for web portal
+TKT-1078,2026-03-26 18:56:00,LATAM,Mobile App,Phone,Low,Closed,28.0,2,Refund,Partial Refund,SMB,Team Delta,Refund issue reported via phone for mobile app
+TKT-1079,2026-02-15 09:59:00,North America,Mobile App,Phone,Critical,Closed,7.7,5,Billing,Double Charge,Enterprise,Team Alpha,Billing issue reported via phone for mobile app
+TKT-1080,2026-02-24 15:53:00,APAC,Web Portal,Email,Low,In Progress,24.1,4,Performance,App Crash,SMB,Team Gamma,Performance issue reported via email for web portal
+TKT-1081,2026-03-14 17:01:00,APAC,Subscriptions,Phone,Low,Closed,44.6,3,Login,MFA Issue,Consumer,Team Gamma,Login issue reported via phone for subscriptions
+TKT-1082,2026-02-13 10:29:00,Europe,Mobile App,Web Form,Low,Closed,35.3,4,Login,Account Locked,SMB,Team Delta,Login issue reported via web form for mobile app
+TKT-1083,2026-01-21 08:22:00,Europe,Web Portal,Web Form,High,Open,9.2,5,Account,Permissions,Consumer,Team Alpha,Account issue reported via web form for web portal
+TKT-1084,2026-01-16 14:16:00,APAC,Web Portal,Chat,Low,Resolved,37.6,3,Performance,Timeout,Consumer,Team Gamma,Performance issue reported via chat for web portal
+TKT-1085,2026-01-17 15:34:00,LATAM,Subscriptions,Web Form,Medium,Resolved,29.8,3,Performance,App Crash,Consumer,Team Beta,Performance issue reported via web form for subscriptions
+TKT-1086,2026-01-25 09:32:00,LATAM,Mobile App,Email,High,Resolved,13.7,4,Account,Plan Change,SMB,Team Gamma,Account issue reported via email for mobile app
+TKT-1087,2026-02-26 15:43:00,North America,Mobile App,Phone,Critical,Resolved,3.2,5,Refund,Partial Refund,SMB,Team Beta,Refund issue reported via phone for mobile app
+TKT-1088,2026-03-09 09:36:00,Europe,Payments,Email,Low,Closed,14.5,5,Login,Password Reset,Consumer,Team Delta,Login issue reported via email for payments
+TKT-1089,2026-02-12 13:38:00,North America,Subscriptions,Web Form,High,Resolved,10.5,5,Bug Report,Notification Failure,SMB,Team Beta,Bug Report issue reported via web form for subscriptions
+TKT-1090,2026-03-15 18:33:00,LATAM,Subscriptions,Web Form,Medium,Resolved,21.0,4,Login,Password Reset,Consumer,Team Beta,Login issue reported via web form for subscriptions
+TKT-1091,2026-03-02 18:41:00,North America,Payments,Web Form,Medium,Closed,27.7,1,Performance,Slow Dashboard,Consumer,Team Beta,Performance issue reported via web form for payments
+TKT-1092,2026-01-11 16:55:00,LATAM,Payments,Chat,Low,Resolved,34.3,2,Login,Password Reset,Consumer,Team Delta,Login issue reported via chat for payments
+TKT-1093,2026-03-13 18:04:00,Europe,Subscriptions,Phone,Low,Resolved,33.1,3,Performance,Timeout,Consumer,Team Delta,Performance issue reported via phone for subscriptions
+TKT-1094,2026-03-18 08:05:00,LATAM,Mobile App,Web Form,Medium,In Progress,16.4,5,Bug Report,Data Mismatch,SMB,Team Gamma,Bug Report issue reported via web form for mobile app
+TKT-1095,2026-01-27 13:59:00,Europe,Web Portal,Web Form,Low,Closed,27.0,3,Bug Report,Notification Failure,Consumer,Team Beta,Bug Report issue reported via web form for web portal
+TKT-1096,2026-01-12 14:01:00,APAC,Subscriptions,Email,Medium,In Progress,22.5,4,Account,Permissions,Consumer,Team Gamma,Account issue reported via email for subscriptions
+TKT-1097,2026-01-30 14:09:00,Europe,Web Portal,Phone,Medium,Closed,15.6,4,Refund,Delayed Refund,SMB,Team Alpha,Refund issue reported via phone for web portal
+TKT-1098,2026-03-05 08:11:00,Europe,Mobile App,Chat,Low,Open,30.2,1,Performance,Timeout,SMB,Team Beta,Performance issue reported via chat for mobile app
+TKT-1099,2026-01-06 10:10:00,Europe,Payments,Web Form,High,In Progress,15.9,3,Performance,Timeout,SMB,Team Gamma,Performance issue reported via web form for payments
+TKT-1100,2026-03-19 11:21:00,LATAM,Subscriptions,Email,Low,Resolved,15.2,4,Bug Report,UI Bug,Consumer,Team Delta,Bug Report issue reported via email for subscriptions
+TKT-1101,2026-01-25 15:11:00,LATAM,Payments,Web Form,Medium,Closed,19.1,2,Performance,Timeout,SMB,Team Alpha,Performance issue reported via web form for payments
+TKT-1102,2026-02-13 12:23:00,APAC,Web Portal,Web Form,Critical,Resolved,3.5,5,Account,Plan Change,Consumer,Team Beta,Account issue reported via web form for web portal
+TKT-1103,2026-03-01 13:53:00,LATAM,Mobile App,Phone,Medium,Resolved,18.5,4,Performance,Timeout,SMB,Team Delta,Performance issue reported via phone for mobile app
+TKT-1104,2026-02-02 13:40:00,North America,Subscriptions,Phone,Low,Open,32.8,2,Performance,App Crash,Enterprise,Team Delta,Performance issue reported via phone for subscriptions
+TKT-1105,2026-01-02 08:32:00,Europe,Subscriptions,Chat,High,Resolved,12.8,3,Login,Account Locked,Consumer,Team Alpha,Login issue reported via chat for subscriptions
+TKT-1106,2026-03-16 10:58:00,LATAM,Payments,Email,Low,Resolved,44.5,3,Bug Report,Notification Failure,Enterprise,Team Delta,Bug Report issue reported via email for payments
+TKT-1107,2026-01-07 18:19:00,Europe,Subscriptions,Chat,Medium,Resolved,21.9,4,Performance,Slow Dashboard,Consumer,Team Gamma,Performance issue reported via chat for subscriptions
+TKT-1108,2026-01-12 16:44:00,LATAM,Web Portal,Chat,Medium,Open,20.3,3,Shipping,Wrong Address,SMB,Team Gamma,Shipping issue reported via chat for web portal
+TKT-1109,2026-03-24 13:36:00,APAC,Subscriptions,Phone,Critical,Closed,0.8,5,Bug Report,Data Mismatch,Consumer,Team Gamma,Bug Report issue reported via phone for subscriptions
+TKT-1110,2026-03-02 15:19:00,North America,Subscriptions,Email,Medium,Resolved,20.1,2,Refund,Refund Denied,Consumer,Team Alpha,Refund issue reported via email for subscriptions
+TKT-1111,2026-03-07 09:35:00,APAC,Mobile App,Email,Medium,Closed,29.3,3,Billing,Card Declined,Consumer,Team Alpha,Billing issue reported via email for mobile app
+TKT-1112,2026-02-11 09:54:00,North America,Mobile App,Chat,Medium,In Progress,12.9,5,Login,Password Reset,SMB,Team Beta,Login issue reported via chat for mobile app
+TKT-1113,2026-01-17 18:24:00,Europe,Mobile App,Web Form,Critical,In Progress,7.5,3,Billing,Card Declined,Consumer,Team Alpha,Billing issue reported via web form for mobile app
+TKT-1114,2026-03-15 17:11:00,Europe,Subscriptions,Phone,High,Closed,7.8,3,Shipping,Wrong Address,SMB,Team Beta,Shipping issue reported via phone for subscriptions
+TKT-1115,2026-03-17 12:48:00,North America,Mobile App,Phone,High,Resolved,7.8,3,Refund,Partial Refund,Consumer,Team Alpha,Refund issue reported via phone for mobile app
+TKT-1116,2026-01-20 17:28:00,APAC,Subscriptions,Web Form,Medium,Open,25.6,3,Billing,Card Declined,Enterprise,Team Beta,Billing issue reported via web form for subscriptions
+TKT-1117,2026-02-19 16:38:00,North America,Mobile App,Email,Medium,Closed,24.4,3,Performance,App Crash,SMB,Team Gamma,Performance issue reported via email for mobile app
+TKT-1118,2026-01-01 14:07:00,North America,Payments,Phone,Low,Resolved,38.2,1,Billing,Card Declined,Consumer,Team Delta,Billing issue reported via phone for payments
+TKT-1119,2026-01-26 15:46:00,APAC,Payments,Phone,Medium,Resolved,23.9,3,Login,Password Reset,Consumer,Team Delta,Login issue reported via phone for payments
+TKT-1120,2026-03-03 09:49:00,LATAM,Payments,Web Form,Medium,Closed,18.0,4,Billing,Double Charge,Consumer,Team Delta,Billing issue reported via web form for payments
+TKT-1121,2026-01-19 13:33:00,Europe,Subscriptions,Chat,High,Resolved,12.5,4,Refund,Refund Denied,SMB,Team Gamma,Refund issue reported via chat for subscriptions
+TKT-1122,2026-03-12 12:18:00,LATAM,Subscriptions,Web Form,Medium,Resolved,18.4,4,Performance,App Crash,SMB,Team Gamma,Performance issue reported via web form for subscriptions
+TKT-1123,2026-02-15 16:02:00,APAC,Mobile App,Email,Medium,Closed,19.0,4,Bug Report,Data Mismatch,Consumer,Team Delta,Bug Report issue reported via email for mobile app
+TKT-1124,2026-02-12 12:22:00,Europe,Subscriptions,Web Form,Medium,Resolved,20.3,4,Bug Report,Data Mismatch,Enterprise,Team Alpha,Bug Report issue reported via web form for subscriptions
+TKT-1125,2026-03-19 11:47:00,LATAM,Web Portal,Chat,Medium,Closed,23.9,3,Account,Plan Change,Consumer,Team Beta,Account issue reported via chat for web portal
+TKT-1126,2026-03-16 14:30:00,APAC,Web Portal,Phone,High,Resolved,6.3,5,Refund,Delayed Refund,Enterprise,Team Gamma,Refund issue reported via phone for web portal
+TKT-1127,2026-02-14 17:46:00,North America,Mobile App,Email,Critical,Closed,2.4,5,Account,Profile Update,Consumer,Team Delta,Account issue reported via email for mobile app
+TKT-1128,2026-03-13 15:15:00,LATAM,Mobile App,Web Form,Medium,In Progress,23.7,4,Billing,Card Declined,SMB,Team Delta,Billing issue reported via web form for mobile app
+TKT-1129,2026-02-24 09:04:00,LATAM,Payments,Email,Low,Resolved,28.5,3,Refund,Delayed Refund,Consumer,Team Beta,Refund issue reported via email for payments
+TKT-1130,2026-01-10 16:13:00,LATAM,Mobile App,Phone,Medium,Closed,7.5,4,Login,Account Locked,Enterprise,Team Gamma,Login issue reported via phone for mobile app
+TKT-1131,2026-03-16 14:23:00,LATAM,Web Portal,Web Form,Low,Open,17.0,3,Login,Account Locked,Consumer,Team Gamma,Login issue reported via web form for web portal
+TKT-1132,2026-02-18 09:59:00,APAC,Subscriptions,Phone,High,Resolved,5.8,4,Billing,Double Charge,SMB,Team Gamma,Billing issue reported via phone for subscriptions
+TKT-1133,2026-02-13 09:37:00,Europe,Payments,Chat,Medium,In Progress,16.9,4,Refund,Delayed Refund,SMB,Team Alpha,Refund issue reported via chat for payments
+TKT-1134,2026-02-24 08:15:00,Europe,Mobile App,Chat,Medium,Resolved,12.6,5,Refund,Refund Denied,Consumer,Team Delta,Refund issue reported via chat for mobile app
+TKT-1135,2026-03-11 13:17:00,APAC,Web Portal,Email,High,Resolved,8.0,4,Bug Report,UI Bug,Consumer,Team Gamma,Bug Report issue reported via email for web portal
+TKT-1136,2026-03-14 08:10:00,Europe,Web Portal,Chat,High,Resolved,7.0,4,Billing,Double Charge,Consumer,Team Alpha,Billing issue reported via chat for web portal
+TKT-1137,2026-02-07 09:44:00,Europe,Web Portal,Email,Medium,In Progress,21.6,3,Bug Report,UI Bug,Consumer,Team Gamma,Bug Report issue reported via email for web portal
+TKT-1138,2026-01-02 10:17:00,Europe,Subscriptions,Email,Critical,Closed,5.8,4,Performance,Slow Dashboard,Consumer,Team Gamma,Performance issue reported via email for subscriptions
+TKT-1139,2026-02-21 10:34:00,LATAM,Subscriptions,Web Form,Medium,Resolved,21.3,4,Billing,Double Charge,SMB,Team Beta,Billing issue reported via web form for subscriptions
+TKT-1140,2026-03-01 13:31:00,North America,Web Portal,Web Form,Low,Resolved,28.3,4,Account,Profile Update,Consumer,Team Alpha,Account issue reported via web form for web portal
+TKT-1141,2026-01-21 16:27:00,LATAM,Subscriptions,Email,Medium,Resolved,13.6,5,Login,Account Locked,Consumer,Team Alpha,Login issue reported via email for subscriptions
+TKT-1142,2026-02-19 12:51:00,Europe,Mobile App,Phone,Medium,Resolved,33.0,4,Account,Profile Update,SMB,Team Beta,Account issue reported via phone for mobile app
+TKT-1143,2026-03-03 18:20:00,North America,Subscriptions,Chat,Low,Resolved,33.9,2,Billing,Card Declined,Consumer,Team Delta,Billing issue reported via chat for subscriptions
+TKT-1144,2026-02-21 14:52:00,LATAM,Subscriptions,Phone,Medium,Closed,30.1,2,Billing,Card Declined,SMB,Team Delta,Billing issue reported via phone for subscriptions
+TKT-1145,2026-01-13 08:40:00,APAC,Payments,Email,Low,Resolved,32.6,3,Account,Profile Update,Consumer,Team Beta,Account issue reported via email for payments
+TKT-1146,2026-01-08 18:21:00,APAC,Payments,Chat,Medium,Open,18.4,4,Account,Profile Update,Enterprise,Team Beta,Account issue reported via chat for payments
+TKT-1147,2026-02-12 08:44:00,North America,Mobile App,Email,High,Closed,10.7,5,Login,MFA Issue,Enterprise,Team Delta,Login issue reported via email for mobile app
+TKT-1148,2026-01-28 10:42:00,LATAM,Web Portal,Email,Medium,Closed,17.7,5,Performance,Slow Dashboard,Consumer,Team Gamma,Performance issue reported via email for web portal
+TKT-1149,2026-01-25 16:01:00,APAC,Subscriptions,Email,Medium,Resolved,17.3,5,Login,Account Locked,SMB,Team Beta,Login issue reported via email for subscriptions
+TKT-1150,2026-02-05 18:39:00,APAC,Mobile App,Web Form,Low,Resolved,52.9,1,Performance,Slow Dashboard,Consumer,Team Beta,Performance issue reported via web form for mobile app
+TKT-1151,2026-03-19 17:24:00,Europe,Web Portal,Chat,Low,Resolved,32.6,4,Billing,Invoice Error,Consumer,Team Alpha,Billing issue reported via chat for web portal
+TKT-1152,2026-02-16 09:20:00,Europe,Web Portal,Phone,High,Closed,9.7,4,Performance,Timeout,Consumer,Team Alpha,Performance issue reported via phone for web portal
+TKT-1153,2026-01-22 09:01:00,LATAM,Web Portal,Web Form,Low,Resolved,30.2,2,Refund,Delayed Refund,Consumer,Team Delta,Refund issue reported via web form for web portal
+TKT-1154,2026-02-25 10:53:00,LATAM,Payments,Email,Medium,Resolved,22.0,2,Account,Plan Change,Consumer,Team Gamma,Account issue reported via email for payments
+TKT-1155,2026-01-05 10:00:00,APAC,Payments,Email,Low,Resolved,22.7,4,Billing,Invoice Error,Consumer,Team Alpha,Billing issue reported via email for payments
+TKT-1156,2026-01-13 16:51:00,APAC,Payments,Chat,Medium,Resolved,22.8,5,Refund,Delayed Refund,Consumer,Team Delta,Refund issue reported via chat for payments
+TKT-1157,2026-03-24 12:57:00,APAC,Mobile App,Web Form,Medium,Open,27.6,3,Performance,App Crash,Consumer,Team Delta,Performance issue reported via web form for mobile app
+TKT-1158,2026-02-07 11:59:00,North America,Subscriptions,Phone,High,Resolved,9.2,4,Login,MFA Issue,Consumer,Team Gamma,Login issue reported via phone for subscriptions
+TKT-1159,2026-01-24 09:29:00,APAC,Payments,Chat,High,Closed,12.5,5,Billing,Double Charge,Consumer,Team Delta,Billing issue reported via chat for payments
+TKT-1160,2026-01-31 11:18:00,LATAM,Web Portal,Web Form,Medium,Closed,20.2,4,Billing,Card Declined,SMB,Team Alpha,Billing issue reported via web form for web portal
+TKT-1161,2026-02-14 08:16:00,LATAM,Payments,Phone,Medium,Closed,26.1,1,Performance,Timeout,Enterprise,Team Gamma,Performance issue reported via phone for payments
+TKT-1162,2026-03-11 08:58:00,North America,Subscriptions,Email,Medium,Resolved,16.8,5,Bug Report,Notification Failure,SMB,Team Delta,Bug Report issue reported via email for subscriptions
+TKT-1163,2026-01-05 11:05:00,LATAM,Payments,Chat,Medium,Closed,18.9,3,Login,Account Locked,Consumer,Team Gamma,Login issue reported via chat for payments
+TKT-1164,2026-02-05 12:29:00,LATAM,Subscriptions,Email,Medium,Resolved,12.3,5,Login,Password Reset,Enterprise,Team Gamma,Login issue reported via email for subscriptions
+TKT-1165,2026-03-14 11:55:00,Europe,Web Portal,Web Form,Low,Closed,19.5,3,Account,Permissions,Consumer,Team Delta,Account issue reported via web form for web portal
+TKT-1166,2026-03-16 11:23:00,North America,Payments,Chat,Medium,Resolved,14.8,3,Bug Report,Notification Failure,Enterprise,Team Beta,Bug Report issue reported via chat for payments
+TKT-1167,2026-01-19 10:24:00,APAC,Payments,Web Form,Critical,Resolved,8.8,5,Bug Report,UI Bug,Enterprise,Team Beta,Bug Report issue reported via web form for payments
+TKT-1168,2026-01-28 17:42:00,North America,Subscriptions,Email,Low,Closed,29.3,4,Account,Permissions,SMB,Team Beta,Account issue reported via email for subscriptions
+TKT-1169,2026-03-07 17:33:00,LATAM,Web Portal,Phone,High,Closed,11.9,5,Performance,Timeout,Consumer,Team Delta,Performance issue reported via phone for web portal
+TKT-1170,2026-02-18 14:20:00,LATAM,Mobile App,Web Form,Low,Closed,18.4,4,Shipping,Tracking Missing,Consumer,Team Beta,Shipping issue reported via web form for mobile app
+TKT-1171,2026-01-26 08:01:00,LATAM,Mobile App,Chat,Low,Resolved,32.6,3,Performance,Slow Dashboard,Consumer,Team Gamma,Performance issue reported via chat for mobile app
+TKT-1172,2026-01-19 12:50:00,LATAM,Web Portal,Phone,Low,Resolved,42.0,3,Billing,Invoice Error,Enterprise,Team Gamma,Billing issue reported via phone for web portal
+TKT-1173,2026-03-23 17:59:00,APAC,Subscriptions,Chat,High,Resolved,7.1,4,Refund,Delayed Refund,SMB,Team Delta,Refund issue reported via chat for subscriptions
+TKT-1174,2026-01-19 16:11:00,APAC,Web Portal,Web Form,High,Closed,10.2,5,Billing,Double Charge,Consumer,Team Gamma,Billing issue reported via web form for web portal
+TKT-1175,2026-02-28 14:26:00,Europe,Mobile App,Web Form,High,Resolved,10.9,4,Login,Password Reset,Enterprise,Team Delta,Login issue reported via web form for mobile app
+TKT-1176,2026-02-19 13:18:00,North America,Web Portal,Web Form,High,Resolved,12.2,5,Bug Report,Notification Failure,Consumer,Team Delta,Bug Report issue reported via web form for web portal
+TKT-1177,2026-01-21 15:25:00,LATAM,Mobile App,Web Form,Low,Resolved,27.7,3,Billing,Invoice Error,Enterprise,Team Beta,Billing issue reported via web form for mobile app
+TKT-1178,2026-03-10 18:29:00,APAC,Payments,Web Form,Critical,Closed,5.4,4,Account,Profile Update,Enterprise,Team Delta,Account issue reported via web form for payments
+TKT-1179,2026-01-01 15:54:00,North America,Mobile App,Web Form,Low,Closed,14.5,5,Account,Permissions,Consumer,Team Beta,Account issue reported via web form for mobile app
+TKT-1180,2026-02-08 16:34:00,North America,Subscriptions,Phone,Low,In Progress,25.8,2,Bug Report,Data Mismatch,Consumer,Team Delta,Bug Report issue reported via phone for subscriptions
+TKT-1181,2026-01-19 18:19:00,North America,Web Portal,Web Form,Low,Resolved,34.3,3,Shipping,Wrong Address,Enterprise,Team Delta,Shipping issue reported via web form for web portal
+TKT-1182,2026-01-19 11:13:00,North America,Payments,Chat,Low,Open,16.4,4,Login,Account Locked,Enterprise,Team Gamma,Login issue reported via chat for payments
+TKT-1183,2026-01-08 09:40:00,Europe,Payments,Web Form,Medium,Resolved,31.5,2,Shipping,Delay,Consumer,Team Alpha,Shipping issue reported via web form for payments
+TKT-1184,2026-02-19 12:20:00,LATAM,Mobile App,Phone,Low,Resolved,30.9,2,Refund,Partial Refund,Consumer,Team Alpha,Refund issue reported via phone for mobile app
+TKT-1185,2026-03-17 16:18:00,APAC,Payments,Phone,High,In Progress,9.8,4,Performance,Timeout,Consumer,Team Gamma,Performance issue reported via phone for payments
+TKT-1186,2026-01-22 10:21:00,LATAM,Mobile App,Chat,Low,Resolved,40.3,2,Billing,Card Declined,SMB,Team Delta,Billing issue reported via chat for mobile app
+TKT-1187,2026-02-26 08:34:00,Europe,Mobile App,Chat,Low,Resolved,30.7,3,Account,Profile Update,SMB,Team Delta,Account issue reported via chat for mobile app
+TKT-1188,2026-03-03 17:42:00,Europe,Subscriptions,Chat,Low,Open,39.8,2,Billing,Invoice Error,Consumer,Team Delta,Billing issue reported via chat for subscriptions
+TKT-1189,2026-03-05 18:45:00,APAC,Subscriptions,Phone,Critical,Resolved,3.4,5,Login,Account Locked,SMB,Team Alpha,Login issue reported via phone for subscriptions
+TKT-1190,2026-02-02 17:38:00,LATAM,Web Portal,Chat,Critical,In Progress,6.2,5,Refund,Partial Refund,Consumer,Team Delta,Refund issue reported via chat for web portal
+TKT-1191,2026-01-28 15:19:00,APAC,Web Portal,Web Form,High,Resolved,14.0,5,Shipping,Tracking Missing,SMB,Team Gamma,Shipping issue reported via web form for web portal
+TKT-1192,2026-01-14 09:50:00,LATAM,Web Portal,Chat,High,Resolved,6.6,3,Account,Plan Change,Consumer,Team Delta,Account issue reported via chat for web portal
+TKT-1193,2026-02-04 18:00:00,North America,Mobile App,Web Form,Low,Resolved,25.4,1,Shipping,Tracking Missing,Consumer,Team Gamma,Shipping issue reported via web form for mobile app
+TKT-1194,2026-01-18 11:34:00,APAC,Web Portal,Email,Low,Closed,22.7,4,Performance,App Crash,Consumer,Team Delta,Performance issue reported via email for web portal
+TKT-1195,2026-01-23 15:10:00,APAC,Payments,Email,Medium,In Progress,24.8,2,Shipping,Tracking Missing,Consumer,Team Delta,Shipping issue reported via email for payments
+TKT-1196,2026-02-25 08:00:00,APAC,Mobile App,Phone,Critical,Resolved,4.2,5,Shipping,Delay,SMB,Team Beta,Shipping issue reported via phone for mobile app
+TKT-1197,2026-02-17 11:55:00,APAC,Mobile App,Email,Critical,Resolved,8.0,5,Performance,App Crash,Consumer,Team Alpha,Performance issue reported via email for mobile app
+TKT-1198,2026-01-27 13:42:00,APAC,Subscriptions,Email,Medium,Closed,30.6,1,Billing,Card Declined,Enterprise,Team Gamma,Billing issue reported via email for subscriptions
+TKT-1199,2026-02-04 14:05:00,Europe,Payments,Phone,Medium,Resolved,10.9,3,Refund,Delayed Refund,Consumer,Team Delta,Refund issue reported via phone for payments
+TKT-1200,2026-02-03 13:52:00,Europe,Mobile App,Chat,High,Closed,13.5,4,Performance,App Crash,SMB,Team Gamma,Performance issue reported via chat for mobile app
+TKT-1201,2026-03-09 10:00:00,APAC,Mobile App,Phone,Medium,Resolved,30.8,2,Login,MFA Issue,SMB,Team Gamma,Login issue reported via phone for mobile app
+TKT-1202,2026-02-06 14:20:00,APAC,Payments,Web Form,Low,Closed,43.3,1,Refund,Partial Refund,Consumer,Team Beta,Refund issue reported via web form for payments
+TKT-1203,2026-01-05 08:55:00,Europe,Subscriptions,Phone,Low,Resolved,27.8,4,Bug Report,UI Bug,Consumer,Team Delta,Bug Report issue reported via phone for subscriptions
+TKT-1204,2026-03-16 08:23:00,North America,Web Portal,Email,Medium,Resolved,13.0,4,Account,Plan Change,Consumer,Team Gamma,Account issue reported via email for web portal
+TKT-1205,2026-01-04 14:44:00,APAC,Subscriptions,Phone,Medium,Closed,12.0,3,Bug Report,UI Bug,Enterprise,Team Beta,Bug Report issue reported via phone for subscriptions
+TKT-1206,2026-03-02 14:15:00,LATAM,Payments,Phone,High,Resolved,13.1,5,Bug Report,Notification Failure,Enterprise,Team Beta,Bug Report issue reported via phone for payments
+TKT-1207,2026-02-04 15:29:00,North America,Subscriptions,Phone,Critical,In Progress,4.8,5,Login,Account Locked,Consumer,Team Delta,Login issue reported via phone for subscriptions
+TKT-1208,2026-01-08 12:59:00,North America,Mobile App,Email,Medium,Resolved,19.3,3,Refund,Partial Refund,Consumer,Team Gamma,Refund issue reported via email for mobile app
+TKT-1209,2026-03-16 10:07:00,LATAM,Payments,Email,Low,Closed,14.9,5,Refund,Partial Refund,Consumer,Team Beta,Refund issue reported via email for payments
+TKT-1210,2026-03-01 09:01:00,LATAM,Subscriptions,Phone,High,Open,6.4,4,Account,Permissions,Enterprise,Team Delta,Account issue reported via phone for subscriptions
+TKT-1211,2026-02-22 14:00:00,Europe,Subscriptions,Email,Medium,Closed,12.7,5,Billing,Double Charge,Enterprise,Team Delta,Billing issue reported via email for subscriptions
+TKT-1212,2026-03-15 17:35:00,APAC,Payments,Phone,Medium,Resolved,11.0,4,Login,Password Reset,Consumer,Team Delta,Login issue reported via phone for payments
+TKT-1213,2026-03-18 18:22:00,LATAM,Mobile App,Phone,High,Closed,6.2,4,Shipping,Delay,Enterprise,Team Gamma,Shipping issue reported via phone for mobile app
+TKT-1214,2026-01-18 13:37:00,APAC,Payments,Web Form,High,Closed,13.5,4,Performance,Timeout,SMB,Team Beta,Performance issue reported via web form for payments
+TKT-1215,2026-03-09 11:17:00,North America,Subscriptions,Email,High,Resolved,10.8,4,Shipping,Tracking Missing,Consumer,Team Beta,Shipping issue reported via email for subscriptions
+TKT-1216,2026-02-24 17:46:00,North America,Payments,Phone,Low,Resolved,29.5,3,Account,Profile Update,Consumer,Team Beta,Account issue reported via phone for payments
+TKT-1217,2026-02-11 08:36:00,Europe,Payments,Chat,Medium,Closed,17.6,2,Shipping,Tracking Missing,Consumer,Team Beta,Shipping issue reported via chat for payments
+TKT-1218,2026-01-13 09:36:00,Europe,Web Portal,Chat,High,Resolved,12.2,5,Refund,Refund Denied,Enterprise,Team Alpha,Refund issue reported via chat for web portal
+TKT-1219,2026-02-03 16:23:00,APAC,Mobile App,Chat,Critical,Resolved,5.3,4,Login,Account Locked,Consumer,Team Gamma,Login issue reported via chat for mobile app
+TKT-1220,2026-02-18 13:53:00,Europe,Payments,Email,Medium,Resolved,15.0,4,Billing,Invoice Error,Consumer,Team Alpha,Billing issue reported via email for payments
+TKT-1221,2026-01-24 18:24:00,APAC,Mobile App,Phone,Critical,In Progress,10.9,5,Performance,Slow Dashboard,Consumer,Team Beta,Performance issue reported via phone for mobile app
+TKT-1222,2026-02-22 17:58:00,APAC,Payments,Chat,Medium,Resolved,13.6,4,Shipping,Tracking Missing,Enterprise,Team Delta,Shipping issue reported via chat for payments
+TKT-1223,2026-01-12 18:52:00,North America,Payments,Web Form,Medium,Open,22.1,3,Bug Report,Data Mismatch,Consumer,Team Gamma,Bug Report issue reported via web form for payments
+TKT-1224,2026-01-29 09:33:00,North America,Subscriptions,Chat,Medium,In Progress,19.4,3,Refund,Refund Denied,SMB,Team Alpha,Refund issue reported via chat for subscriptions
+TKT-1225,2026-01-26 16:09:00,APAC,Subscriptions,Email,Medium,Closed,21.4,5,Billing,Invoice Error,Consumer,Team Delta,Billing issue reported via email for subscriptions
+TKT-1226,2026-02-23 16:46:00,LATAM,Subscriptions,Email,Low,Resolved,30.0,3,Account,Plan Change,Consumer,Team Delta,Account issue reported via email for subscriptions
+TKT-1227,2026-01-21 12:05:00,North America,Payments,Phone,Low,Closed,11.1,3,Refund,Refund Denied,SMB,Team Beta,Refund issue reported via phone for payments
+TKT-1228,2026-03-16 09:10:00,North America,Mobile App,Phone,Medium,Resolved,30.5,2,Account,Permissions,Enterprise,Team Gamma,Account issue reported via phone for mobile app
+TKT-1229,2026-01-18 10:22:00,LATAM,Web Portal,Web Form,Low,Closed,34.4,4,Account,Permissions,Consumer,Team Delta,Account issue reported via web form for web portal
+TKT-1230,2026-01-13 17:07:00,North America,Payments,Chat,High,Closed,13.9,5,Billing,Double Charge,SMB,Team Delta,Billing issue reported via chat for payments
+TKT-1231,2026-01-28 17:42:00,Europe,Subscriptions,Phone,Low,Closed,42.9,2,Refund,Delayed Refund,Enterprise,Team Delta,Refund issue reported via phone for subscriptions
+TKT-1232,2026-02-14 17:35:00,LATAM,Payments,Phone,Medium,Closed,24.7,4,Shipping,Wrong Address,Consumer,Team Gamma,Shipping issue reported via phone for payments
+TKT-1233,2026-03-19 08:17:00,APAC,Web Portal,Chat,Critical,Closed,6.3,4,Shipping,Tracking Missing,Consumer,Team Delta,Shipping issue reported via chat for web portal
+TKT-1234,2026-01-22 09:55:00,North America,Payments,Email,Medium,Resolved,8.6,4,Bug Report,UI Bug,Consumer,Team Delta,Bug Report issue reported via email for payments
+TKT-1235,2026-02-16 14:06:00,North America,Web Portal,Chat,High,Open,7.4,4,Shipping,Tracking Missing,Consumer,Team Alpha,Shipping issue reported via chat for web portal
+TKT-1236,2026-03-09 17:14:00,APAC,Payments,Web Form,High,Resolved,17.2,4,Performance,Timeout,Enterprise,Team Delta,Performance issue reported via web form for payments
+TKT-1237,2026-02-22 15:51:00,North America,Web Portal,Phone,Medium,Resolved,1.4,4,Login,MFA Issue,Enterprise,Team Alpha,Login issue reported via phone for web portal
+TKT-1238,2026-02-20 13:46:00,Europe,Mobile App,Web Form,Low,Closed,24.3,4,Billing,Invoice Error,Consumer,Team Alpha,Billing issue reported via web form for mobile app
+TKT-1239,2026-01-27 10:13:00,APAC,Web Portal,Email,Low,Resolved,19.0,3,Shipping,Wrong Address,Consumer,Team Beta,Shipping issue reported via email for web portal
+TKT-1240,2026-01-31 17:09:00,LATAM,Payments,Phone,Low,Resolved,38.0,4,Billing,Invoice Error,SMB,Team Beta,Billing issue reported via phone for payments
