@@ -139,7 +139,6 @@ const Index = () => {
           <p className="text-sm text-muted-foreground">
             Q1 2026 • {totalTickets} of {tickets.length} tickets{totalTickets < tickets.length ? " (filtered)" : ""} across {byRegion.length} regions
           </p>
-          </p>
         </div>
         <div className="flex flex-wrap gap-2">
           <InsightBadge text={`Top team: ${bestTeam.name} (${bestTeam.avgCSAT} CSAT)`} type="positive" />
