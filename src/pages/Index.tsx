@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { Ticket, parseCSV, groupBy, avg } from "@/lib/parseTickets";
 import KPICard from "@/components/KPICard";
 import ChartCard from "@/components/ChartCard";
 import InsightBadge from "@/components/InsightBadge";
+import DashboardFilters from "@/components/DashboardFilters";
 import { Ticket as TicketIcon, Clock, Star, AlertCircle, Users, BarChart3, Activity } from "lucide-react";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
