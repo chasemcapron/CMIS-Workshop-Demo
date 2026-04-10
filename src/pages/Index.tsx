@@ -32,12 +32,19 @@ const CustomTooltip = ({ active, payload, label }: any) => {
 
 const Index = () => {
   const [tickets, setTickets] = useState<Ticket[]>([]);
+  const [filtered, setFiltered] = useState<Ticket[]>([]);
 
   useEffect(() => {
     fetch("/data/support_tickets.csv")
       .then(r => r.text())
-      .then(csv => setTickets(parseCSV(csv)));
+      .then(csv => {
+        const parsed = parseCSV(csv);
+        setTickets(parsed);
+        setFiltered(parsed);
+      });
   }, []);
+
+  const handleFiltered = useCallback((f: Ticket[]) => setFiltered(f), []);
 
   if (!tickets.length) return (
     <div className="flex items-center justify-center min-h-screen">
@@ -45,10 +52,11 @@ const Index = () => {
     </div>
   );
 
-  // KPIs
-  const totalTickets = tickets.length;
-  const avgResolution = avg(tickets.map(t => t.resolution_time_hours));
-  const avgCSAT = avg(tickets.map(t => t.csat_score));
+  // Use filtered data for all metrics
+  const data = filtered;
+  const totalTickets = data.length;
+  const avgResolution = avg(data.map(t => t.resolution_time_hours));
+  const avgCSAT = avg(data.map(t => t.csat_score));
   const openTickets = tickets.filter(t => t.status === "In Progress" || t.status === "Open").length;
   const highPriority = tickets.filter(t => t.priority === "High" || t.priority === "Critical").length;
 
