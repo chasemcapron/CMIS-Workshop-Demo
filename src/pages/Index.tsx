@@ -137,7 +137,8 @@ const Index = () => {
             </h1>
           </div>
           <p className="text-sm text-muted-foreground">
-            Q1 2026 • {totalTickets} tickets across {byRegion.length} regions
+            Q1 2026 • {totalTickets} of {tickets.length} tickets{totalTickets < tickets.length ? " (filtered)" : ""} across {byRegion.length} regions
+          </p>
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
@@ -146,6 +147,9 @@ const Index = () => {
           <InsightBadge text={`${openTickets} tickets still open`} type={openTickets > 30 ? "negative" : "neutral"} />
         </div>
       </div>
+
+      {/* Filters */}
+      <DashboardFilters tickets={tickets} onFiltered={handleFiltered} />
 
       {/* KPI Row */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -311,7 +315,7 @@ const Index = () => {
           <BarChart3 className="w-4 h-4 text-primary" />
           <span className="text-sm font-medium text-foreground">Key Takeaways</span>
         </div>
-        <InsightBadge text={`Enterprise accounts: ${((tickets.filter(t => t.customer_segment === 'Enterprise').length / totalTickets) * 100).toFixed(0)}% of volume`} type="neutral" />
+        <InsightBadge text={`Enterprise accounts: ${((data.filter(t => t.customer_segment === 'Enterprise').length / totalTickets) * 100).toFixed(0)}% of volume`} type="neutral" />
         <InsightBadge text={`Phone channel has highest volume (${byChannel.find(c => c.name === 'Phone')?.count || 0} tickets)`} type="warning" />
         <InsightBadge text={`Billing is the #1 issue category (${byCategory[0]?.count || 0} tickets)`} type="negative" />
       </div>
