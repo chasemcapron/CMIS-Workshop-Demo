@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { Ticket, parseCSV, groupBy, avg } from "@/lib/parseTickets";
 import KPICard from "@/components/KPICard";
 import ChartCard from "@/components/ChartCard";
 import InsightBadge from "@/components/InsightBadge";
+import DashboardFilters from "@/components/DashboardFilters";
 import { Ticket as TicketIcon, Clock, Star, AlertCircle, Users, BarChart3, Activity } from "lucide-react";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
@@ -31,12 +32,19 @@ const CustomTooltip = ({ active, payload, label }: any) => {
 
 const Index = () => {
   const [tickets, setTickets] = useState<Ticket[]>([]);
+  const [filtered, setFiltered] = useState<Ticket[]>([]);
 
   useEffect(() => {
     fetch("/data/support_tickets.csv")
       .then(r => r.text())
-      .then(csv => setTickets(parseCSV(csv)));
+      .then(csv => {
+        const parsed = parseCSV(csv);
+        setTickets(parsed);
+        setFiltered(parsed);
+      });
   }, []);
+
+  const handleFiltered = useCallback((f: Ticket[]) => setFiltered(f), []);
 
   if (!tickets.length) return (
     <div className="flex items-center justify-center min-h-screen">
@@ -44,46 +52,47 @@ const Index = () => {
     </div>
   );
 
-  // KPIs
-  const totalTickets = tickets.length;
-  const avgResolution = avg(tickets.map(t => t.resolution_time_hours));
-  const avgCSAT = avg(tickets.map(t => t.csat_score));
-  const openTickets = tickets.filter(t => t.status === "In Progress" || t.status === "Open").length;
-  const highPriority = tickets.filter(t => t.priority === "High" || t.priority === "Critical").length;
+  // Use filtered data for all metrics
+  const data = filtered;
+  const totalTickets = data.length;
+  const avgResolution = avg(data.map(t => t.resolution_time_hours));
+  const avgCSAT = avg(data.map(t => t.csat_score));
+  const openTickets = data.filter(t => t.status === "In Progress" || t.status === "Open").length;
+  const highPriority = data.filter(t => t.priority === "High" || t.priority === "Critical").length;
 
   // By Region
-  const byRegion = Object.entries(groupBy(tickets, t => t.region)).map(([name, items]) => ({
+  const byRegion = Object.entries(groupBy(data, t => t.region)).map(([name, items]) => ({
     name, count: items.length, avgCSAT: +avg(items.map(t => t.csat_score)).toFixed(1),
     avgResolution: +avg(items.map(t => t.resolution_time_hours)).toFixed(1)
   }));
 
   // By Priority
-  const byPriority = Object.entries(groupBy(tickets, t => t.priority)).map(([name, items]) => ({
+  const byPriority = Object.entries(groupBy(data, t => t.priority)).map(([name, items]) => ({
     name, value: items.length
   }));
 
   // By Status
-  const byStatus = Object.entries(groupBy(tickets, t => t.status)).map(([name, items]) => ({
+  const byStatus = Object.entries(groupBy(data, t => t.status)).map(([name, items]) => ({
     name, value: items.length
   }));
 
   // By Category
-  const byCategory = Object.entries(groupBy(tickets, t => t.issue_category)).map(([name, items]) => ({
+  const byCategory = Object.entries(groupBy(data, t => t.issue_category)).map(([name, items]) => ({
     name, count: items.length, avgResolution: +avg(items.map(t => t.resolution_time_hours)).toFixed(1)
   })).sort((a, b) => b.count - a.count);
 
   // By Channel
-  const byChannel = Object.entries(groupBy(tickets, t => t.channel)).map(([name, items]) => ({
+  const byChannel = Object.entries(groupBy(data, t => t.channel)).map(([name, items]) => ({
     name, count: items.length, avgCSAT: +avg(items.map(t => t.csat_score)).toFixed(1)
   }));
 
   // By Product Line
-  const byProduct = Object.entries(groupBy(tickets, t => t.product_line)).map(([name, items]) => ({
+  const byProduct = Object.entries(groupBy(data, t => t.product_line)).map(([name, items]) => ({
     name, count: items.length, avgResolution: +avg(items.map(t => t.resolution_time_hours)).toFixed(1)
   }));
 
   // By Agent Team
-  const byTeam = Object.entries(groupBy(tickets, t => t.agent_team)).map(([name, items]) => ({
+  const byTeam = Object.entries(groupBy(data, t => t.agent_team)).map(([name, items]) => ({
     name, tickets: items.length,
     avgCSAT: +avg(items.map(t => t.csat_score)).toFixed(1),
     avgResolution: +avg(items.map(t => t.resolution_time_hours)).toFixed(1),
@@ -91,12 +100,12 @@ const Index = () => {
   }));
 
   // By Customer Segment
-  const bySegment = Object.entries(groupBy(tickets, t => t.customer_segment)).map(([name, items]) => ({
+  const bySegment = Object.entries(groupBy(data, t => t.customer_segment)).map(([name, items]) => ({
     name, count: items.length, avgCSAT: +avg(items.map(t => t.csat_score)).toFixed(1)
   }));
 
   // Monthly trend
-  const byMonth = Object.entries(groupBy(tickets, t => t.created_at.slice(0, 7)))
+  const byMonth = Object.entries(groupBy(data, t => t.created_at.slice(0, 7)))
     .map(([month, items]) => ({
       month: new Date(month + "-01").toLocaleDateString("en-US", { month: "short" }),
       tickets: items.length,
@@ -105,7 +114,7 @@ const Index = () => {
     })).sort((a, b) => a.month.localeCompare(b.month));
 
   // Treemap data for subcategories
-  const treemapData = Object.entries(groupBy(tickets, t => t.issue_subcategory)).map(([name, items]) => ({
+  const treemapData = Object.entries(groupBy(data, t => t.issue_subcategory)).map(([name, items]) => ({
     name, size: items.length
   })).sort((a, b) => b.size - a.size);
 
@@ -128,7 +137,7 @@ const Index = () => {
             </h1>
           </div>
           <p className="text-sm text-muted-foreground">
-            Q1 2026 • {totalTickets} tickets across {byRegion.length} regions
+            Q1 2026 • {totalTickets} of {tickets.length} tickets{totalTickets < tickets.length ? " (filtered)" : ""} across {byRegion.length} regions
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
@@ -137,6 +146,9 @@ const Index = () => {
           <InsightBadge text={`${openTickets} tickets still open`} type={openTickets > 30 ? "negative" : "neutral"} />
         </div>
       </div>
+
+      {/* Filters */}
+      <DashboardFilters tickets={tickets} onFiltered={handleFiltered} />
 
       {/* KPI Row */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -302,7 +314,7 @@ const Index = () => {
           <BarChart3 className="w-4 h-4 text-primary" />
           <span className="text-sm font-medium text-foreground">Key Takeaways</span>
         </div>
-        <InsightBadge text={`Enterprise accounts: ${((tickets.filter(t => t.customer_segment === 'Enterprise').length / totalTickets) * 100).toFixed(0)}% of volume`} type="neutral" />
+        <InsightBadge text={`Enterprise accounts: ${((data.filter(t => t.customer_segment === 'Enterprise').length / totalTickets) * 100).toFixed(0)}% of volume`} type="neutral" />
         <InsightBadge text={`Phone channel has highest volume (${byChannel.find(c => c.name === 'Phone')?.count || 0} tickets)`} type="warning" />
         <InsightBadge text={`Billing is the #1 issue category (${byCategory[0]?.count || 0} tickets)`} type="negative" />
       </div>
